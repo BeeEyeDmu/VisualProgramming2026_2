@@ -138,6 +138,7 @@
       this.btnInsert.TabIndex = 10;
       this.btnInsert.Text = "추가";
       this.btnInsert.UseVisualStyleBackColor = true;
+      this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
       // 
       // btnSearch
       // 
@@ -147,6 +148,7 @@
       this.btnSearch.TabIndex = 11;
       this.btnSearch.Text = "검색";
       this.btnSearch.UseVisualStyleBackColor = true;
+      this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
       // 
       // btnClear
       // 
@@ -156,6 +158,7 @@
       this.btnClear.TabIndex = 12;
       this.btnClear.Text = "Clear";
       this.btnClear.UseVisualStyleBackColor = true;
+      this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
       // 
       // btnExit
       // 
@@ -165,6 +168,7 @@
       this.btnExit.TabIndex = 16;
       this.btnExit.Text = "종료";
       this.btnExit.UseVisualStyleBackColor = true;
+      this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
       // 
       // btnUpdate
       // 
@@ -174,6 +178,7 @@
       this.btnUpdate.TabIndex = 15;
       this.btnUpdate.Text = "수정";
       this.btnUpdate.UseVisualStyleBackColor = true;
+      this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
       // 
       // btnDelete
       // 
@@ -183,6 +188,7 @@
       this.btnDelete.TabIndex = 14;
       this.btnDelete.Text = "삭제";
       this.btnDelete.UseVisualStyleBackColor = true;
+      this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
       // 
       // btnDeleteAll
       // 
@@ -192,6 +198,7 @@
       this.btnDeleteAll.TabIndex = 13;
       this.btnDeleteAll.Text = "모두 삭제";
       this.btnDeleteAll.UseVisualStyleBackColor = true;
+      this.btnDeleteAll.Click += new System.EventHandler(this.btnDeleteAll_Click);
       // 
       // Form1
       // 
