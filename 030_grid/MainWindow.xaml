@@ -1,0 +1,26 @@
+﻿<Window x:Class="_030_grid.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_030_grid"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Grid.Column="0">Click me! 1</Button>
+        <Button Grid.Row="1" Grid.Column="1" Content="Click me! 2"/>
+        <Button Grid.Row="2" Grid.Column="2" Content="Click me! 3"></Button>
+        <Button Grid.Row="2" Grid.Column="0">Click me! 4</Button>
+        <Button Grid.Row="0" Grid.Column="2">Click me! 5</Button>
+    </Grid>
+</Window>
