@@ -1,0 +1,22 @@
+﻿<Window x:Class="_041_event.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_041_event"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Click me!" HorizontalAlignment="Left" 
+                Margin="283,119,0,0" VerticalAlignment="Top" 
+                Height="81" Width="243" Click="Button_Click_2"/>
+        <!--이벤트를 만드는 방법 3가지-->
+        <!--(1) 버튼을 더블 클릭(Form과 동일)-->
+        <!--(2) 속성창/번개표시 누르고 Click을 찾아서 빈칸을 더블클릭-->
+        <!--(3) 버튼 태그의 속성에서 Click=<Tab>을 사용 -->
+        <TextBlock HorizontalAlignment="Center" Margin="0,279,0,0" 
+                   TextWrapping="Wrap" 
+                   VerticalAlignment="Top" Width="288"/>
+
+    </Grid>
+</Window>
